@@ -10,7 +10,7 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the String : ");
-        String str = sc.nextLine();
+        String str = sc.nextLine().toLowerCase();
 
         int left = 0;
         int right = str.length() - 1;
